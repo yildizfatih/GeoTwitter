@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D4470616E0BDA700BD975C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D4470516E0BDA700BD975C /* UIKit.framework */; };
+		06D4470816E0BDA700BD975C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D4470716E0BDA700BD975C /* Foundation.framework */; };
+		06D4470A16E0BDA700BD975C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D4470916E0BDA700BD975C /* CoreGraphics.framework */; };
+		06D4471016E0BDA700BD975C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06D4470E16E0BDA700BD975C /* InfoPlist.strings */; };
+		06D4471216E0BDA700BD975C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D4471116E0BDA700BD975C /* main.m */; };
+		06D4471616E0BDA700BD975C /* GeoMagicAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D4471516E0BDA700BD975C /* GeoMagicAppDelegate.m */; };
+		06D4471816E0BDA700BD975C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 06D4471716E0BDA700BD975C /* Default.png */; };
+		06D4471A16E0BDA700BD975C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06D4471916E0BDA700BD975C /* Default@2x.png */; };
+		06D4471C16E0BDA700BD975C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06D4471B16E0BDA700BD975C /* Default-568h@2x.png */; };
+		06D4471F16E0BDA700BD975C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D4471D16E0BDA700BD975C /* MainStoryboard.storyboard */; };
+		06D4472216E0BDA700BD975C /* GeoMagicFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D4472116E0BDA700BD975C /* GeoMagicFirstViewController.m */; };
+		06D4472416E0BDA700BD975C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 06D4472316E0BDA700BD975C /* first.png */; };
+		06D4472616E0BDA700BD975C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06D4472516E0BDA700BD975C /* first@2x.png */; };
+		06D4472916E0BDA700BD975C /* GeoMagicSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D4472816E0BDA700BD975C /* GeoMagicSecondViewController.m */; };
+		06D4472B16E0BDA700BD975C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 06D4472A16E0BDA700BD975C /* second.png */; };
+		06D4472D16E0BDA700BD975C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06D4472C16E0BDA700BD975C /* second@2x.png */; };
+		06D4473516E0BDA700BD975C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D4473416E0BDA700BD975C /* SenTestingKit.framework */; };
+		06D4473616E0BDA700BD975C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D4470516E0BDA700BD975C /* UIKit.framework */; };
+		06D4473716E0BDA700BD975C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D4470716E0BDA700BD975C /* Foundation.framework */; };
+		06D4473F16E0BDA700BD975C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06D4473D16E0BDA700BD975C /* InfoPlist.strings */; };
+		06D4474216E0BDA700BD975C /* GeoTwitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D4474116E0BDA700BD975C /* GeoTwitterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06D4473816E0BDA700BD975C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06D446FA16E0BDA700BD975C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06D4470116E0BDA700BD975C;
+			remoteInfo = GeoTwitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D4470216E0BDA700BD975C /* GeoTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D4470516E0BDA700BD975C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		06D4470716E0BDA700BD975C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06D4470916E0BDA700BD975C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		06D4470D16E0BDA700BD975C /* GeoTwitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoTwitter-Info.plist"; sourceTree = "<group>"; };
+		06D4470F16E0BDA700BD975C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06D4471116E0BDA700BD975C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06D4471316E0BDA700BD975C /* GeoTwitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoTwitter-Prefix.pch"; sourceTree = "<group>"; };
+		06D4471416E0BDA700BD975C /* GeoMagicAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoMagicAppDelegate.h; sourceTree = "<group>"; };
+		06D4471516E0BDA700BD975C /* GeoMagicAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoMagicAppDelegate.m; sourceTree = "<group>"; };
+		06D4471716E0BDA700BD975C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		06D4471916E0BDA700BD975C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		06D4471B16E0BDA700BD975C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		06D4471E16E0BDA700BD975C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		06D4472016E0BDA700BD975C /* GeoMagicFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoMagicFirstViewController.h; sourceTree = "<group>"; };
+		06D4472116E0BDA700BD975C /* GeoMagicFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoMagicFirstViewController.m; sourceTree = "<group>"; };
+		06D4472316E0BDA700BD975C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		06D4472516E0BDA700BD975C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		06D4472716E0BDA700BD975C /* GeoMagicSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoMagicSecondViewController.h; sourceTree = "<group>"; };
+		06D4472816E0BDA700BD975C /* GeoMagicSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoMagicSecondViewController.m; sourceTree = "<group>"; };
+		06D4472A16E0BDA700BD975C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		06D4472C16E0BDA700BD975C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		06D4473316E0BDA700BD975C /* GeoTwitterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoTwitterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D4473416E0BDA700BD975C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		06D4473C16E0BDA700BD975C /* GeoTwitterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoTwitterTests-Info.plist"; sourceTree = "<group>"; };
+		06D4473E16E0BDA700BD975C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06D4474016E0BDA700BD975C /* GeoTwitterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoTwitterTests.h; sourceTree = "<group>"; };
+		06D4474116E0BDA700BD975C /* GeoTwitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoTwitterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06D446FF16E0BDA700BD975C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D4470616E0BDA700BD975C /* UIKit.framework in Frameworks */,
+				06D4470816E0BDA700BD975C /* Foundation.framework in Frameworks */,
+				06D4470A16E0BDA700BD975C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D4472F16E0BDA700BD975C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D4473516E0BDA700BD975C /* SenTestingKit.framework in Frameworks */,
+				06D4473616E0BDA700BD975C /* UIKit.framework in Frameworks */,
+				06D4473716E0BDA700BD975C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D446F916E0BDA700BD975C = {
+			isa = PBXGroup;
+			children = (
+				06D4470B16E0BDA700BD975C /* GeoTwitter */,
+				06D4473A16E0BDA700BD975C /* GeoTwitterTests */,
+				06D4470416E0BDA700BD975C /* Frameworks */,
+				06D4470316E0BDA700BD975C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06D4470316E0BDA700BD975C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06D4470216E0BDA700BD975C /* GeoTwitter.app */,
+				06D4473316E0BDA700BD975C /* GeoTwitterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06D4470416E0BDA700BD975C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06D4470516E0BDA700BD975C /* UIKit.framework */,
+				06D4470716E0BDA700BD975C /* Foundation.framework */,
+				06D4470916E0BDA700BD975C /* CoreGraphics.framework */,
+				06D4473416E0BDA700BD975C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06D4470B16E0BDA700BD975C /* GeoTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				06D4471416E0BDA700BD975C /* GeoMagicAppDelegate.h */,
+				06D4471516E0BDA700BD975C /* GeoMagicAppDelegate.m */,
+				06D4471D16E0BDA700BD975C /* MainStoryboard.storyboard */,
+				06D4472016E0BDA700BD975C /* GeoMagicFirstViewController.h */,
+				06D4472116E0BDA700BD975C /* GeoMagicFirstViewController.m */,
+				06D4472316E0BDA700BD975C /* first.png */,
+				06D4472516E0BDA700BD975C /* first@2x.png */,
+				06D4472716E0BDA700BD975C /* GeoMagicSecondViewController.h */,
+				06D4472816E0BDA700BD975C /* GeoMagicSecondViewController.m */,
+				06D4472A16E0BDA700BD975C /* second.png */,
+				06D4472C16E0BDA700BD975C /* second@2x.png */,
+				06D4470C16E0BDA700BD975C /* Supporting Files */,
+			);
+			path = GeoTwitter;
+			sourceTree = "<group>";
+		};
+		06D4470C16E0BDA700BD975C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06D4470D16E0BDA700BD975C /* GeoTwitter-Info.plist */,
+				06D4470E16E0BDA700BD975C /* InfoPlist.strings */,
+				06D4471116E0BDA700BD975C /* main.m */,
+				06D4471316E0BDA700BD975C /* GeoTwitter-Prefix.pch */,
+				06D4471716E0BDA700BD975C /* Default.png */,
+				06D4471916E0BDA700BD975C /* Default@2x.png */,
+				06D4471B16E0BDA700BD975C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06D4473A16E0BDA700BD975C /* GeoTwitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				06D4474016E0BDA700BD975C /* GeoTwitterTests.h */,
+				06D4474116E0BDA700BD975C /* GeoTwitterTests.m */,
+				06D4473B16E0BDA700BD975C /* Supporting Files */,
+			);
+			path = GeoTwitterTests;
+			sourceTree = "<group>";
+		};
+		06D4473B16E0BDA700BD975C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06D4473C16E0BDA700BD975C /* GeoTwitterTests-Info.plist */,
+				06D4473D16E0BDA700BD975C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06D4470116E0BDA700BD975C /* GeoTwitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D4474516E0BDA700BD975C /* Build configuration list for PBXNativeTarget "GeoTwitter" */;
+			buildPhases = (
+				06D446FE16E0BDA700BD975C /* Sources */,
+				06D446FF16E0BDA700BD975C /* Frameworks */,
+				06D4470016E0BDA700BD975C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoTwitter;
+			productName = GeoTwitter;
+			productReference = 06D4470216E0BDA700BD975C /* GeoTwitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06D4473216E0BDA700BD975C /* GeoTwitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D4474816E0BDA700BD975C /* Build configuration list for PBXNativeTarget "GeoTwitterTests" */;
+			buildPhases = (
+				06D4472E16E0BDA700BD975C /* Sources */,
+				06D4472F16E0BDA700BD975C /* Frameworks */,
+				06D4473016E0BDA700BD975C /* Resources */,
+				06D4473116E0BDA700BD975C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06D4473916E0BDA700BD975C /* PBXTargetDependency */,
+			);
+			name = GeoTwitterTests;
+			productName = GeoTwitterTests;
+			productReference = 06D4473316E0BDA700BD975C /* GeoTwitterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06D446FA16E0BDA700BD975C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GeoMagic;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Fatih;
+			};
+			buildConfigurationList = 06D446FD16E0BDA700BD975C /* Build configuration list for PBXProject "GeoTwitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06D446F916E0BDA700BD975C;
+			productRefGroup = 06D4470316E0BDA700BD975C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06D4470116E0BDA700BD975C /* GeoTwitter */,
+				06D4473216E0BDA700BD975C /* GeoTwitterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06D4470016E0BDA700BD975C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D4471016E0BDA700BD975C /* InfoPlist.strings in Resources */,
+				06D4471816E0BDA700BD975C /* Default.png in Resources */,
+				06D4471A16E0BDA700BD975C /* Default@2x.png in Resources */,
+				06D4471C16E0BDA700BD975C /* Default-568h@2x.png in Resources */,
+				06D4471F16E0BDA700BD975C /* MainStoryboard.storyboard in Resources */,
+				06D4472416E0BDA700BD975C /* first.png in Resources */,
+				06D4472616E0BDA700BD975C /* first@2x.png in Resources */,
+				06D4472B16E0BDA700BD975C /* second.png in Resources */,
+				06D4472D16E0BDA700BD975C /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D4473016E0BDA700BD975C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D4473F16E0BDA700BD975C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06D4473116E0BDA700BD975C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06D446FE16E0BDA700BD975C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D4471216E0BDA700BD975C /* main.m in Sources */,
+				06D4471616E0BDA700BD975C /* GeoMagicAppDelegate.m in Sources */,
+				06D4472216E0BDA700BD975C /* GeoMagicFirstViewController.m in Sources */,
+				06D4472916E0BDA700BD975C /* GeoMagicSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D4472E16E0BDA700BD975C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D4474216E0BDA700BD975C /* GeoTwitterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06D4473916E0BDA700BD975C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06D4470116E0BDA700BD975C /* GeoTwitter */;
+			targetProxy = 06D4473816E0BDA700BD975C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06D4470E16E0BDA700BD975C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06D4470F16E0BDA700BD975C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		06D4471D16E0BDA700BD975C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06D4471E16E0BDA700BD975C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		06D4473D16E0BDA700BD975C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06D4473E16E0BDA700BD975C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06D4474316E0BDA700BD975C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06D4474416E0BDA700BD975C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06D4474616E0BDA700BD975C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoTwitter/GeoTwitter-Prefix.pch";
+				INFOPLIST_FILE = "GeoTwitter/GeoTwitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		06D4474716E0BDA700BD975C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoTwitter/GeoTwitter-Prefix.pch";
+				INFOPLIST_FILE = "GeoTwitter/GeoTwitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		06D4474916E0BDA700BD975C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoTwitter.app/GeoTwitter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoTwitter/GeoTwitter-Prefix.pch";
+				INFOPLIST_FILE = "GeoTwitterTests/GeoTwitterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		06D4474A16E0BDA700BD975C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoTwitter.app/GeoTwitter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoTwitter/GeoTwitter-Prefix.pch";
+				INFOPLIST_FILE = "GeoTwitterTests/GeoTwitterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06D446FD16E0BDA700BD975C /* Build configuration list for PBXProject "GeoTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D4474316E0BDA700BD975C /* Debug */,
+				06D4474416E0BDA700BD975C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D4474516E0BDA700BD975C /* Build configuration list for PBXNativeTarget "GeoTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D4474616E0BDA700BD975C /* Debug */,
+				06D4474716E0BDA700BD975C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06D4474816E0BDA700BD975C /* Build configuration list for PBXNativeTarget "GeoTwitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D4474916E0BDA700BD975C /* Debug */,
+				06D4474A16E0BDA700BD975C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06D446FA16E0BDA700BD975C /* Project object */;
+}
